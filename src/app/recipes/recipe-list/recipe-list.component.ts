@@ -14,6 +14,13 @@ export class RecipeListComponent implements OnInit {
       'https://get.pxhere.com/photo/dish-meal-food-produce-' +
       'recipe-fish-breakfast-meat-pork-cuisine-steak-pork-chop-power-' +
       'dishes-grilling-fried-food-604134.jpg'
+    ),
+    new Recipe(
+      'A Test Recipe',
+      'This is simply a test',
+      'https://get.pxhere.com/photo/dish-meal-food-produce-' +
+      'recipe-fish-breakfast-meat-pork-cuisine-steak-pork-chop-power-' +
+      'dishes-grilling-fried-food-604134.jpg'
     )
   ];
   constructor() { }
